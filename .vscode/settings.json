@@ -10,5 +10,8 @@
   "powershell.cwd": "/workspaces/core",
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "bysabi.prettier-vscode-standard"
   }
 }
