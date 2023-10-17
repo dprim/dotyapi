@@ -2,10 +2,10 @@
   "codeowners": [],
   "config_flow": true,
   "dependencies": ["application_credentials"],
-  "documentation": "https://github.com/home-assistant/example-custom-config/tree/master/custom_components/example_sensor/",
+  "documentation": "https://github.com/dprim/dotyapi",
   "domain": "dotyapi",
   "iot_class": "cloud_polling",
   "name": "DOTYAPI Notify",
   "requirements": [],
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
