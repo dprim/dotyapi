@@ -1,10 +1,9 @@
 """API for DotyApi Order Notify bound to Home Assistant OAuth."""
-from asyncio import run_coroutine_threadsafe
-
 from aiohttp import ClientSession
-from . import dotyapi_auth, config_entry_oauth2_flow
-
+from asyncio import run_coroutine_threadsafe
 from homeassistant.core import HomeAssistant
+
+from . import dotyapi_auth, config_entry_oauth2_flow
 
 # the following two API examples are based on our suggested best practices
 # for libraries using OAuth2 with requests or aiohttp. Delete the one you won't use.
