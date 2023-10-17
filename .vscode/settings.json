@@ -1,0 +1,14 @@
+{
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "files.autoSave": "onFocusChange",
+  "editor.defaultFormatter": "formulahendry.auto-close-tag",
+  "path-intellisense.autoSlashAfterDirectory": true,
+  "python.analysis.extraPaths": ["/workspaces/core/*"],
+  "python.analysis.include": ["/workspaces/core/*"],
+  "python.analysis.exclude": ["/workspaces/core/tests"],
+  "powershell.cwd": "/workspaces/core",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  }
+}

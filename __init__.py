@@ -4,9 +4,9 @@ from __future__ import annotations
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import Platform
 from homeassistant.core import HomeAssistant
-from homeassistant.helpers import aiohttp_client, config_entry_oauth2_flow
+from homeassistant.helpers import aiohttp_client
 
-from . import api, application_credentials
+from . import api, application_credentials, config_entry_oauth2_flow
 from .const import DOMAIN
 
 # List the platforms that you want to support.
