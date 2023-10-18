@@ -5,14 +5,12 @@
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {
-  },
   "devDependencies": {
     "@types/eslint": "^8",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
-    "eslint-plugin-react": "latest",
     "eslint": "latest",
-    "jslint": "^0.12.1",
+    "eslint-plugin-react": "latest",
+    "jslint": "^0.12.1"
   }
 }
