@@ -1,0 +1,11 @@
+{
+  "name": "dotyapi",
+  "packageManager": "yarn@3.2.3",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "jslint": "^0.12.1"
+  }
+}
