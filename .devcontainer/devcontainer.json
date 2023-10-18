@@ -13,27 +13,13 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        // "vscode.git",
-        // "vscode.git-base",
-        // "Postman.postman-for-vscode",
-        // "gamunu.vscode-yarn",
-        // "arcanis.vscode-zipfs",
-        // "carlosjs23.vscode-yarn-script",
-        // "xqchen.yarn-ui",
-        // "vscode.json-language-features",
-        // "OfHumanBondage.react-proptypes-intellisense",
-        // "rvest.vs-code-prettier-eslint",
-        // "steoates.autoimport",
-        // "christian-kohler.path-intellisense",
-        // "NuclleaR.vscode-extension-auto-import",
-        // "vscode.typescript-language-features",
-        // "planbcoding.vscode-react-refactor",
-        // "dbaeumer.vscode-eslint",
-        // "KnisterPeter.vscode-webpack",
-        // "mgmcdermott.vscode-language-babel",
-        // "octref.vscode-ts-config-plugin",
-        // "charliermarsh.ruff"
-      ]
+		"mgmcdermott.vscode-language-babel",
+		"NuclleaR.vscode-extension-auto-import",
+		"humao.rest-client",
+		"folke.vscode-monorepo-workspace",
+		"carlosjs23.vscode-yarn-script",
+		"xqchen.yarn-ui"
+	]
     }
   },
   // Features to add to the dev container. More info: https://containers.dev/features.

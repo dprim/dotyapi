@@ -33,6 +33,15 @@ module.exports = {
   resolve: {
     extensions: ['.json', '.js', '.jsx'],
     fallback: {
+      "url": require.resolve('url'),
+      "fs": require.resolve('fs'),
+      "assert": require.resolve('assert'),
+      "crypto": require.resolve('crypto-browserify'),
+      "http": require.resolve('stream-http'),
+      "https": require.resolve('https-browserify'),
+      "os": require.resolve('os-browserify/browser'),
+      "buffer": require.resolve('buffer'),
+      "stream": require.resolve('stream-browserify'),
       "querystring": require.resolve("querystring-es3")
     }
   },
@@ -41,6 +50,6 @@ module.exports = {
     contentBase: path.join(__dirname, '/dist/'),
     inline: true,
     host: 'localhost',
-    port: 8080,
+    port: 8080
   }
 };

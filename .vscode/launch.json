@@ -1,6 +1,13 @@
 {
   "configurations": [
     {
+      "command": "yarn start",
+      "name": "Run yarn start",
+      "request": "launch",
+      "type": "node-terminal",
+      "url": "http://localhost:3000"
+    },
+    {
       "type": "chrome",
       "name": "http://localhost",
       "request": "launch",
