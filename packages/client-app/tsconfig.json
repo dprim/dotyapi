@@ -19,6 +19,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "exactOptionalPropertyTypes": true,
+    "strictFunctionTypes": false,
+    "assumeChangesOnlyAffectDirectDependencies": true,
     "jsx": "react-jsx"
   },
   "include": [

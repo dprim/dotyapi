@@ -1,4 +1,4 @@
-const path = require('path');
+import path from 'path';
 module.exports = {
   mode: 'development',
   entry: path.join(__dirname, 'src', 'index'),
@@ -33,8 +33,17 @@ module.exports = {
   resolve: {
     extensions: ['.json', '.js', '.jsx'],
     fallback: {
-      "querystring": require.resolve("querystring-es3")
-    }
+      url: require.resolve('url'),
+      fs: require.resolve('fs'),
+      assert: require.resolve('assert'),
+      crypto: require.resolve('crypto-browserify'),
+      http: require.resolve('stream-http'),
+      https: require.resolve('https-browserify'),
+      os: require.resolve('os-browserify/browser'),
+      buffer: require.resolve('buffer'),
+      stream: require.resolve('stream-browserify'),
+      "querystring": require.resolve("querystring-es3"),
+    },
   },
   devtool: 'source-map',
   devServer: {
@@ -42,5 +51,5 @@ module.exports = {
     inline: true,
     host: 'localhost',
     port: 8080,
-  }
+  },
 };

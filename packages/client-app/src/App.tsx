@@ -4,7 +4,7 @@ import {
 } from "@chakra-ui/react";
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
 import { Logo } from "./Logo";
-import DotyApiClient, { DAC } from "./DotyApiClient"; 
+import Api from "./Api";
 
 const App = () => {
   return (
@@ -26,7 +26,7 @@ const App = () => {
           >
             Learn Chakra
           </Link>
-            <Text>{DAC.getAuthorizationURL()}</Text>
+            <Text>{Api.authorizationCodePKCE.getAuthUri()}</Text>
         </VStack>
       </Grid>
     </Box>

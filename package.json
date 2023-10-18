@@ -7,5 +7,12 @@
   ],
   "dependencies": {
     "jslint": "^0.12.1"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react": "latest"
   }
 }
